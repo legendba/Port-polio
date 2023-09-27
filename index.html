@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav-bar{
+                  height: 640px;
+                  width:20%;
+                /*  background-color: aquamarine;*/
+                  border-radius: 10px;
+                  background-image:linear-gradient(to right,yellow,pink,orange);
+                  position: fixed;
+                  
+
+        }
+
+        .nav-img img{
+                        width: 150px;
+                        border-radius: 50%;
+                        margin:40px;
+        }
+        .nav-items ul{
+                      list-style-type:none;
+                      margin-top:30px;
+        }
+        .nav-items a{
+                     text-decoration: none;
+                     font-size:25px;
+                     color: black;
+                     line-height:50px;
+                }
+        .nav-items a:hover{
+                            color:seagreen;
+                            font-size:30px;
+                            text-decoration: underline;
+        }
+        .content{
+                   height:100%;
+                   width:100%;
+                    
+                   background-image:linear-gradient(to top,cornflowerblue,cadetblue,wheat,thistle);
+                   border-radius:20px;
+                   margin:2px;
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
+                   flex-direction: column;
+                   margin-left:250px;
+                
+                }
+
+        .main-container{
+                         display: flex;
+                         
+}
+
+        .content-home{
+                        
+                      
+                        height:500px;
+                        width:800px;
+                        border: solid;
+                        display: flex;
+                        border-radius:3px;
+                        align-items: center;
+                        background-image:url(photo1.jpg);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        margin:35px;
+                        border-radius:10px;
+                }
+
+        .content-home-name{
+                            margin-top:100px;
+                            margin-right:400px;
+                            margin-left:10px;
+                            margin-bottom:0px;
+                        }
+        .content-home-name h1{
+                               font-size:50px;
+                                color:teal;
+        }
+
+        .content-home-name p{
+                               width:300px;
+                               height:400px;
+                               font-size:20px;
+                               color:red;
+                               text-align:justify;
+        }
+
+        .content-home-img img{
+                               position: relative;
+                               top: 30px;
+                               right:220px;
+                               height:350px;
+                               width: 300px;
+        }
+
+        .content-qual{
+                
+               background-image:linear-gradient(to top,chartreuse,violet,dimgray);
+                height:350px;
+                width:800px;
+                border: solid;
+                border-radius:10px;
+                margin: 95px 0px 100px;
+         }
+
+        .content-skill{
+
+                
+                background-image:linear-gradient(to top,cadetblue,cornflowerblue,dimgray);
+                height:350px;
+                width:800px;
+                border:solid;
+                border-radius:10px;
+                margin: 95px 0px 100px;
+         }
+
+        .content-project{
+                 
+                    background-image:linear-gradient(to top,darkcyan,tan,rosybrown);
+                    border: solid;
+                    height:300px;
+                    width:800px;
+                    margin: 90px 0px 100px;
+                    border-radius: 10px;
+                }
+
+        .content-information{
+                              
+                              background-image:linear-gradient(to top,pink,coral,thistle);
+                              border: solid;
+                              height:400px;
+                              width:800px;
+                              border-radius:10px;
+                              margin:70px 0px 100px;
+        }
+        
+        .content-contact{
+                          
+                          background-image:linear-gradient(to top,darkseagreen,rosybrown,mediumpurple);
+                          border:solid;
+                          height:400px;
+                          width:800px;
+                          border-radius:10px;
+                          margin:70px 0px 150px;
+                          
+        } 
+
+        .information-details ul{
+                                 line-height:30px;
+                                 
+        }
+        
+        .content-imgage img{
+                              display:inline;
+                              margin:100px 50px 10px 50px;
+                              height:50px;
+                              width: 50px;
+                              border-radius: 20%;
+        } 
+
+        .content-imgage img:hover{
+                                    transform: scale(1.5);
+        }
+
+        h2{
+                font-size:30px;
+                text-shadow:4px 8px 12px red;
+        }
+
+      </style>
+</head>
+<body>
+
+<div class="main-container">
+        <!-- nav bar starts -->
+         <div class="nav-bar">
+            <div class="nav-img">
+                   <img src="photo2.png" alt="">
+            </div>
+            <div class="nav-items">
+                  <ul>
+                       <li><a href="">Home</a></li>
+                       <li><a href="#one">Qualification</a></li>
+                       <li><a href="#two">Skills</a></li>
+                       <li><a href="#three">Project</a></li>
+                       <li><a href="#four">Info</a></li>
+                       <li><a href="#five">Contact</a></li>
+                    </ul>
+            </div>
+
+         </div>
+        <!-- nav bar ends -->
+
+        <!-- content starts -->
+               <div class="content">
+                    <div class="content-home">
+                        <div class="content-home-name">
+                                <h1>Krishna</h1>
+                                <p>I am smart working and dedicated person with lot of work ethics,
+                                   and knowledgable person and having motivating charector
+                                   to motivate other and having the personality of carrying the
+                                   sucess and failures along with me.  
+                                </p>
+                        </div>
+ 
+                     <div class="content-home-img">
+                               <img src="photo3.jpg" alt="">
+                     </div>
+              </div>
+                    <hr id="one">
+                    <div class="content-qual">
+                            <h2 align="center">Qualification</h2>
+                        
+                            <div class="qual-details">
+                                     <ul>
+                                        <li>
+                                                SSLC
+                                                <ul>
+                                                        <li>Royale Apallo International School(Hassan)
+                                                                <ul>
+                                                                        <li>2017
+                                                                                <ul>
+                                                                                        <li>82%</li>
+                                                                                </ul>
+                                                                        </li>
+                                                                </ul>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                        
+                                     </ul>
+                                     
+
+                                     <ul>
+                                        <li>
+                                                Diplamo in Mechanic
+                                                <ul>
+                                                        <li>Ramaila Polytechnic (Bangalore)
+                                                                <ul>
+                                                                        <li>2020
+                                                                                <ul>
+                                                                                        <li>77%</li>
+                                                                                </ul>
+                                                                        </li>
+                                                                </ul>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                        
+                                     </ul> 
+
+                                     <ul>
+                                        <li>
+                                                B.E in Mechanica
+                                                <ul>
+                                                        <li>
+                                                                Bangalore Institute of Technology (Bangalore)
+                                                                     <ul>
+                                                                        <li>
+                                                                                2023
+                                                                                   <ul>
+                                                                                        <li>82%</li>
+                                                                                   </ul>
+                                                                        </li>
+                                                                     </ul>
+                                                        </li>
+                                                </ul>
+                                        </li>
+                                     </ul>
+
+                            </div>
+                    </div>
+
+                 <hr id="two">
+                    <div class="content-skill">
+
+                <h2 align="center">Skills</h2>
+                               <div class="skill-detail">
+                                   <ul>
+                                        <li>Python Fullstack Development </li>
+                                   <ul>
+                                        <li>
+                                                Python
+                                                <ul>
+                                                        <li>python Basics</li>
+                                                        <li>Oop</li>
+                                                        <li>Advanced</li>
+                                                        <li>Data Structure</li>
+                                                        <li>Django Framework</li>
+                                                </ul>
+
+                                               <li>
+                                                Web Technology     
+                                                <ul>
+                                                        <li>HTML</li>
+                                                        <li>CSS</li>
+                                                        <li>Java Script</li>
+                                                </ul>
+
+                                                <li>
+                                                        SQL
+                                                        <ul>
+                                                                <li>DDL,DML,DCL,TCL,DQL</li>
+                                                                <li>Joins</li>
+                                                        </ul>
+                                                </li>
+                                               </li>                                  
+                                        </li>
+                                </ul>
+                        </ul>    
+
+                               </div>
+
+                    </div>
+
+                <hr id="three">
+                <div class="content-project">
+                        <h2 align="center">Project</h2>
+                              <div class="project-detail">
+                                     <ul>
+                                        <li>B.E Project
+                                                <ul>
+                                                        <li>Pipe Inspection Robot</li>
+                                                </ul>
+                                                <br>
+                                        <li>Web Project
+                                                <ul>
+                                                        <li>Gaming Web site</li>
+                                                        <li>Port Polio</li>
+                                                        <li>Online shopping website</li>
+                                                        <li>Employment website</li>
+                                                </ul>
+                                        </li>
+                                        </li>
+                                     </ul>
+
+                        </div>
+                </div>
+
+                <hr id="four">
+                <div class="content-information">
+                        <h2 align="center">Information</h2>
+                        <div class="information-details">
+                                <ul>
+                                     <li>Name:Krishna BA</li>
+                                      <li>Father name:Ananatha Swamy</li>
+                                      <li>Mother name:Girijamba S</li>  
+                                     <li>Place:Hassan</li>
+                                     <li>languages:Kannada,English,Hindi</li>
+                                     <li>Hobbies:Games,Movies,Listining to songs</li>
+                                     
+                                </ul>
+
+                        </div>
+                </div>
+
+                <hr id="five">
+                <div class="content-contact">
+                        <h2 align="center">Contact</h2>
+                        <div class="contact-details">
+                                <div class="content-imgage">
+                                      <a href="https://web.whatsapp.com/" target="_blank"> <img src="photo4.png" alt=""> </a>
+                                        <img src="photo5.jpg" alt="">
+                                        <img src="photo6.png" alt="">
+                                        <img src="photo7.png" alt="">
+                                        <img src="photo8.png" alt="">
+                                        
+                                </div>
+                              
+                </div>
+                </div>
+
+</div>
+</div>
+
+</body>
+</html>
